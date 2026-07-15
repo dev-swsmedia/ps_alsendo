@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Warstwa_2" data-name="Warstwa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 171.76 180.6">
+  <g id="Warstwa_1-2" data-name="Warstwa 1">
+    <g>
+      <rect width="171.76" height="180.6" style="fill: none; stroke-width: 0px;"/>
+      <g>
+        <path d="m127.97,66.59l-56.79-32.79c-4.19-2.42-8.91-3.7-13.66-3.7-15.12,0-27.41,12.3-27.41,27.41v65.58c0,15.12,12.3,27.41,27.41,27.41,4.75,0,9.48-1.28,13.66-3.7l56.79-32.79c8.57-4.95,13.69-13.82,13.69-23.72,0-9.9-5.12-18.77-13.69-23.72Z" style="fill: #f7f7f7; stroke-width: 0px;"/>
+        <g>
+          <path d="m66.69,139.04l9.74-5.62v-43.07l-37.36-21.57v54.32c0,14.17,15.34,23.03,27.62,15.95Z" style="fill: #6d3adf; stroke-width: 0px;"/>
+          <path d="m123.49,74.36l-9.75-5.63-37.3,21.62v43.07l47.05-27.17c12.28-7.09,12.28-24.81,0-31.89Z" style="fill: #9c84ef; stroke-width: 0px;"/>
+          <path d="m113.73,68.72l-47.04-27.16c-12.28-7.09-27.62,1.77-27.62,15.95v11.26l37.28,21.53,37.37-21.58Z" style="fill: #2df7c2; stroke-width: 0px;"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

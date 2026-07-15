@@ -1,0 +1,22 @@
+services:
+  php:
+    env_file:
+      - path: ./.env
+        required: true # default
+      - path: ./.env.local
+        required: false
+    build:
+      context: ..
+      dockerfile: Dockerfile
+      args:
+        - PHP_VERSION=${PHP_VERSION}
+        - PHP_IDE_CONFIG=${PHP_IDE_CONFIG}
+        - XDEBUG_MODE=${XDEBUG_MODE}
+        - XDEBUG_CLIENT_HOST=${XDEBUG_CLIENT_HOST}
+        - XDEBUG_CLIENT_PORT=${XDEBUG_CLIENT_PORT}
+        - XDEBUG_REMOTE_ENABLE=${XDEBUG_REMOTE_ENABLE}
+        - XDEBUG_IDEKEY=${XDEBUG_IDEKEY}
+#    ports:
+#      - "9000:9000"
+    volumes:
+      - .:/app

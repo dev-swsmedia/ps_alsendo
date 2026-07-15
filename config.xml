@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>alsendo</name>
+    <displayName><![CDATA[Alsendo]]></displayName>
+    <version><![CDATA[1.7.19]]></version>
+    <description><![CDATA[Shipping module for PrestaShop 9.x]]></description>
+    <author><![CDATA[Innovation Software]]></author>
+    <tab><![CDATA[shipping_logistics]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>

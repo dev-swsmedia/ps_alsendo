@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<ruleset name="AlsendoModule">
+    <description>Coding standard ruleset for the Alsendo PrestaShop module.</description>
+
+    <!-- Scan the module from the current directory -->
+    <file>.</file>
+
+    <!-- Use PrestaShop coding standard if available, otherwise fall back to PSR12 -->
+    <rule ref="PrestaShop"/>
+    <rule ref="PSR12"/>
+
+    <!-- Exclude composer-managed third-party code: it is not authored by us
+         and PrestaShop Addons rules explicitly exempt vendor/ folders. -->
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+    <exclude-pattern>*/node_modules/*</exclude-pattern>
+
+    <!-- Exclude wrapper-internal vendor (kept as fallback in case validator
+         scans nested vendor folders too). -->
+    <exclude-pattern>*/alsendo-wrapper-v2/vendor/*</exclude-pattern>
+    <exclude-pattern>*/alsendo-wrapper-v2/tests/*</exclude-pattern>
+    <exclude-pattern>*/alsendo-wrapper-v2/docker/*</exclude-pattern>
+    <exclude-pattern>*/alsendo-wrapper-v2/docs/*</exclude-pattern>
+
+    <!-- Exclude module's own dev/cache files (not part of the runtime ZIP) -->
+    <exclude-pattern>*/.php-cs-fixer.dist.php</exclude-pattern>
+    <exclude-pattern>*/.php-cs-fixer.cache</exclude-pattern>
+    <exclude-pattern>*/tmp/*</exclude-pattern>
+</ruleset>

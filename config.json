@@ -1,0 +1,10 @@
+{
+    "name": "alsendo",
+    "displayName": "Alsendo",
+    "version": "1.7.19",
+    "author": "InnovationSoftware",
+    "tab": "shipping_logistics",
+    "psVersion": "1.7.8",
+    "description": "Shipping module for PrestaShop 1.7.8+ / 8.x.",
+    "need_instance": 0
+}

@@ -1,0 +1,7 @@
+/.idea/
+/.env.local
+/.env.test.local
+/.phpunit.result.cache
+/docker/.env
+.env
+.env.test.local

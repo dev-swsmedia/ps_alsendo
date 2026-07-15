@@ -1,0 +1,35 @@
+{
+  "name": "alsendo/alsendo-wrapper",
+  "description": "Alsendo Wrapper for Apaczka, Ecolet, Zaslat",
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.2",
+  "authors": [
+    {
+      "name": "ilabs.dev",
+      "email": "hi@ilabs.dev"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "guzzlehttp/guzzle": "^7.0",
+    "league/oauth2-client": "^2.6",
+    "ext-json": "*",
+    "ext-curl": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0",
+    "vlucas/phpdotenv": "^v4.3.0",
+    "fakerphp/faker": "^1.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Alsendo\\AlsendoWrapper\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Alsendo\\AlsendoWrapper\\Tests\\": "tests/"
+    }
+  }
+}
